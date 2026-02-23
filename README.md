@@ -1,22 +1,37 @@
+<p align="center">
+  <img src="assets/wincore11-logo.png" width="128" alt="WinCore 11 Logo">
+</p>
+
 # WinCore 11
 
-WinCore 11 leverages Microsoft's [Answer Files](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/update-windows-settings-and-scripts-create-your-own-answer-file-sxs?view=windows-11) to automate and fine-tune Windows 11 installations. It strips bloatware, applies system-level optimizations, and preserves the features that actually matter for daily use — all without touching unofficial ISOs.
+<img src="assets/no-ai-slop.jpg" width="1000">
+
+## Download
+
+<p align="center">
+
+[![Download autounattend.xml](https://img.shields.io/badge/⬇%20Download-autounattend.xml-107C10?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/WinCore11/WinCore11-Build/releases/latest/download/autounattend.xml)
+
+[![Version v1.0.0 (Latest)](https://img.shields.io/badge/Version-1.0.0%20Latest-0078D4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/WinCore11/WinCore11-Build/releases/latest)
+
+</p>
+
+
+
+## 🖼️ Before / After
+
+| Stock Windows 11 | WinCore 11 Edition |
+|------------------|-------------------|
+| <img src="assets/win11-orijinal.jpg" width="500"> | <img src="assets/win11-wincore11-edition.jpg" width="500"> |
+
+
+
+WinCore 11 leverages Microsoft's [Answer Files](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/update-windows-settings-and-scripts-create-your-own-answer-file-sxs?view=windows-11) to automate and fine-tune Windows 11 installations. It strips bloatware, applies system-level optimizations, and preserves the features that actually matter for daily use all without touching unofficial ISOs.
 
 </br>
 
 > [!NOTE]
 > WinCore 11 is engineered with a specific philosophy: **maximum performance without sacrificing usability.** Xbox/Minecraft compatibility, touchscreen support, Microsoft Store, and biometric login are deliberately preserved. This is not a "nuke everything" script.
-
-## Download
-
-[![Download autounattend.xml](https://img.shields.io/badge/⬇%20Download-autounattend.xml-107C10?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/WinCore11/WinCore11/releases/download/v1.0.0/autounattend.xml)
-[![Version 1.0.0 (Latest)](https://img.shields.io/badge/Version-1.0.0%20Latest-0078D4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/WinCore11/WinCore11/releases/tag/v1.0.0)
-
-## Requirements
-
-- Windows 10 or Windows 11
-  - *(Tested on Windows 11 23H2 and 24H2)*
-  - *(64-bit only)*
 
 ## What Does WinCore 11 Do?
 
