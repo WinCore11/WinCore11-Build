@@ -72,7 +72,7 @@ Place it on your USB drive and boot. You'll still select your language, Windows 
 | 5 | **SystemResponsiveness Restored** | Registry key deleted entirely — Windows cleanly falls back to its built-in default of 20, rather than being set to an out-of-range value |
 | 6 | **Smart Power Throttling** | Battery-aware: disabled on desktops via WMI check, left untouched on laptops |
 | 7 | **Faster Shutdown** | Page file clear on shutdown disabled — no functional benefit, only slows shutdown |
-| 8 | **Smart SysMain & Prefetcher** | Disabled only when an SSD is detected via WMI check — kept enabled on HDD systems where it provides significant performance benefit |
+| 8 | **Smart SysMain & Prefetcher** | Services left at Automatic — Windows natively detects SSDs vs HDDs and optimizes caching behavior with zero manual WMI scripting required |
 | 9 | **Win32PrioritySeparation** | Set to `38` — adjusts CPU scheduling to favor active foreground applications |
 | 10 | **HiberbootEnabled Correct Path** | Applied to `CurrentControlSet` (active) instead of `ControlSet001` (backup) — ensures the setting actually takes effect |
 
@@ -103,7 +103,7 @@ Place it on your USB drive and boot. You'll still select your language, Windows 
 | 24 | **Start Menu Centered** | `TaskbarAl = 1` — preserves Windows 11 default layout, avoids taskbar rendering issues |
 | 25 | **Taskbar Icon Size Default** | `TaskbarSmallIcons` removed — unsupported on Win11, causes rendering glitches with no performance gain |
 | 26 | **System Tray Unchanged** | Overflow behavior left at default — avoids forcing all icons visible and cluttering the bar |
-| 27 | **Balanced UI Animations** | `UserPreferencesMask` tuned, not zeroed — Win11 animations run on GPU, disabling them gives no CPU benefit |
+| 27 | **Default UI Animations** | Visual effects and animations left untouched — Win11 animations run on the GPU, disabling them degrades the UX with no CPU benefit |
 | 28 | **File Explorer Default** | Launches to "This PC" for all users, applied via DefaultUser hive |
 | 29 | **IsEducationEnvironment Removed** | Redundant education flag stripped — `HideRecommendedSection` already cleanly hides the Recommended section without side effects |
 | 30 | **Home Network Profile** | `NetworkLocation` set to `Home` instead of `Work` — enables network discovery, file sharing, and visibility of other home devices like phones and smart TVs |
