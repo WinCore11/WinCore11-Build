@@ -69,7 +69,7 @@ Place it on your USB drive and boot. You'll still select your language, Windows 
 #### ⚡ Performance & System
 | # | Change | Detail |
 |---|--------|--------|
-| 5 | **SystemResponsiveness Restored** | Registry key deleted entirely — Windows cleanly falls back to its built-in default of 20, rather than being set to an out-of-range value |
+| 5 | **SystemResponsiveness Restored** | Registry key set to 20 - Windows 11 default value. |
 | 6 | **Smart Power Throttling** | Battery-aware: disabled on desktops via WMI check, left untouched on laptops |
 | 7 | **Faster Shutdown** | Page file clear on shutdown disabled — no functional benefit, only slows shutdown |
 | 8 | **Smart SysMain & Prefetcher** | Services left at Automatic — Windows natively detects SSDs vs HDDs and optimizes caching behavior with zero manual WMI scripting required |
